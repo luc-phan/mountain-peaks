@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Mountain Peaks API Docs</title>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Mountain Peaks API Docs</h1>
+        <table>
+            <tr>
+                <th>Method</th>
+                <th>Route</th>
+                <th>Description</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td>GET</td>
+                <td>/api/peaks</td>
+                <td>List moutain peaks</td>
+                <td><code>curl -u user:password http://localhost:8000/api/peaks/</code></td>
+            </tr>
+            <tr>
+                <td>GET</td>
+                <td>/api/peaks/?box=1,2,3,4</td>
+                <td>List peaks inside bounding box (1 <=lat <= 2 and 3 <= lon <= 4</td>
+                <td><code>curl -u user:password http://localhost:8000/api/peaks/?box=1,2,3,4</code></td>
+            </tr>
+            <tr>
+                <td>etc.</td>
+            </tr>
+        </table>
+    </body>
+</html>
