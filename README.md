@@ -54,3 +54,4 @@ TODO
 
 - Create API docs with Swagger
 - Use uWSGI or Gunicorn instead of Python container
+- Remove test credentials and secret key from settings
