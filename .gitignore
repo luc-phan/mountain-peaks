@@ -1,0 +1,3 @@
+/.vscode
+/docker/data
+/web-service/mysite/db.sqlite3
