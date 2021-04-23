@@ -8,9 +8,9 @@ Environmnent
 
 - Linux Mint 20.1
 - python 3.8.5
-- pipenv
+- pipenv 11.9.0
 - PostgreSQL 12.6
-- docker 
+- docker 20.10.2
     ```
     sudo usermod -a -G docker myuser
     ```
