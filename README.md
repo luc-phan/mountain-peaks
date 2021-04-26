@@ -3,8 +3,8 @@ mountain-peaks
 
 ![Screenshot](images/mountain-peaks.png)
 
-Environmnent
-------------
+Environment
+-----------
 
 - Linux Mint 20.1
 - python 3.8.5
